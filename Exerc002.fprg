@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefany.freitas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 03:20:15 "/>
+        <attribute name="created" value="c3RlZmFueS5mcmVpdGFzO0RFU0tUT1AtVjNNMU5EQjsyMDI0LTAxLTI0OyIwMzowMzoyOCAiOzM4MDI="/>
+        <attribute name="edited" value="c3RlZmFueS5mcmVpdGFzO0RFU0tUT1AtVjNNMU5EQjsyMDI0LTAxLTI0OyIwMzoyMDoxNSAiOzE7MzkwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, delta" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="10"/>
+            <assign variable="b" expression="10"/>
+            <assign variable="c" expression="10"/>
+            <assign variable="delta" expression="b^2-4*a*c"/>
+            <output expression="delta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

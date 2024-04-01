@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefany.freitas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 04:37:28 "/>
+        <attribute name="created" value="c3RlZmFueS5mcmVpdGFzO0RFU0tUT1AtVjNNMU5EQjsyMDI0LTAxLTI5OyIwNDoyNTowOCAiOzM4MTA="/>
+        <attribute name="edited" value="c3RlZmFueS5mcmVpdGFzO0RFU0tUT1AtVjNNMU5EQjsyMDI0LTAxLTI5OyIwNDozNzoyOCAiOzE7MzkyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ano, mes, dia, idade" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="dia"/>
+            <input variable="mes"/>
+            <input variable="ano"/>
+            <assign variable="idade" expression="2024-2007"/>
+            <output expression="idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

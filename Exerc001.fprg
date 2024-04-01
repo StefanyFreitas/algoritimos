@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefany.freitas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 03:03:21 "/>
+        <attribute name="created" value="c3RlZmFueS5mcmVpdGFzO0RFU0tUT1AtVjNNMU5EQjsyMDI0LTAxLTI0OyIwMjozMjoyNiAiOzM4MDE="/>
+        <attribute name="edited" value="c3RlZmFueS5mcmVpdGFzO0RFU0tUT1AtVjNNMU5EQjsyMDI0LTAxLTI0OyIwMzowMzoyMSAiOzI7MzkwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, soma, m&#233;dia" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="m&#233;dia" expression="-(a+b+c)/3"/>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="stefany.freitas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-21 02:30:40 "/>
+        <attribute name="created" value="c3RlZmFueS5mcmVpdGFzO05UMTc7MjAyNC0wMi0yMTsiMDE6MzI6MjIgIjszMDAy"/>
+        <attribute name="edited" value="c3RlZmFueS5mcmVpdGFzO05UMTc7MjAyNC0wMi0yMTsiMDI6MzA6NDAgIjsyOzMxMTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="opc" type="Integer" array="False" size=""/>
+            <declare name="res" type="Boolean" array="False" size=""/>
+            <assign variable="opc" expression="-1"/>
+            <while expression="opc!=0">
+                <output expression="&quot;############## EMPRESA XYZ ###############&quot;" newline="True"/>
+                <output expression="&quot;1.Incluir produto&quot;" newline="True"/>
+                <output expression="&quot;2. Alterar Produto&quot;" newline="True"/>
+                <output expression="&quot;3. Excluir Produto&quot;" newline="True"/>
+                <output expression="&quot;4. Listar Produtos&quot;" newline="True"/>
+                <output expression="&quot;0. Sair&quot;" newline="True"/>
+                <input variable="opc"/>
+                <if expression="opc&gt;=0 &amp;&amp; opc&lt;=4">
+                    <then>
+                        <if expression="opc==1">
+                            <then>
+                                <output expression="&quot;Opcao 1&quot;" newline="True"/>
+                                <assign variable="res" expression="incluir()"/>
+                            </then>
+                            <else>
+                                <if expression="opc==2">
+                                    <then>
+                                        <output expression="&quot;Opcao 2&quot;" newline="True"/>
+                                        <assign variable="res" expression="alterar(id)"/>
+                                    </then>
+                                    <else>
+                                        <if expression="opc==3">
+                                            <then>
+                                                <output expression="&quot;Opcao 3&quot;" newline="True"/>
+                                                <assign variable="res" expression="excluir(id)"/>
+                                            </then>
+                                            <else>
+                                                <if expression="opc==4">
+                                                    <then>
+                                                        <output expression="&quot;Opcao 4&quot;" newline="True"/>
+                                                        <assign variable="res" expression="listar()"/>
+                                                    </then>
+                                                    <else/>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <output expression="&quot;Selecionar uma opcao entre 0 e 4&quot;" newline="True"/>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
